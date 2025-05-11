@@ -1,0 +1,71 @@
+# 모델 및 데이터 파일
+*.pth
+*.pt
+*.pkl
+*.h5
+*.model
+*.joblib
+*.csv
+*.txt
+*.json
+*.npy
+
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상환경
+venv/
+ENV/
+env/
+.env
+.venv
+env.bak/
+venv.bak/
+.python-version
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# 로그 파일
+logs/
+*.log
+
+# Mac OS 관련 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Poetry 관련 파일
+poetry.lock

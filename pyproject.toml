@@ -1,0 +1,27 @@
+[project]
+name = "pure-lstm"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "JJadeYoon",email = "yjs19990421@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch (>=2.7.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "torchvision (>=0.22.0,<0.23.0) ; python_version >= \"3.8\" and python_version < \"3.12\" and sys_platform == \"linux\"",
+    "torchaudio (>=2.7.0,<3.0.0) ; python_version >= \"3.8\" and python_version < \"3.12\" and sys_platform == \"linux\"",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.5,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "joblib (>=1.5.0,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pytorch-lightning (>=2.5.1.post0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
